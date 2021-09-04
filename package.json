@@ -1,11 +1,20 @@
 {
-  "name": "javascript-jest-ci-visibility",
+  "name": "javascript-ci-practice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dd-trace": "^1.1.1",
+    "jest": "^27.0.6",
+    "jest-circus": "^27.0.6"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
