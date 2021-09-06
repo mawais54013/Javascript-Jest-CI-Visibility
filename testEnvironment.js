@@ -14,5 +14,5 @@ require('dd-trace').init({
   module.exports = require('jest-environment-node')
   module.exports = {
     testRunner: 'jest-circus/runner',
-    testEnvironment: './testEnvironment.js',
+    testEnvironment: './functions.js',
 };
